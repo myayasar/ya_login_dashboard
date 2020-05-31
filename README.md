@@ -16,7 +16,7 @@ In the project directory, you can run:
 
 ## Step2
 
-### `npm setup`
+### `npm run setup`
 ![Screenshot](setup.png)
 
 Launches console runner in the interactive watch mode<br />

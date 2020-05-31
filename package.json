@@ -6,12 +6,26 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.0",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.4",
+    "path": "^0.12.7",
+    "prompt": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "simple-encryptor": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "setup": "node opt/setup.js",
+    "serve": "concurrently \"npm run start-service\" \"node opt/productionServer.js\"",
+    "start-service": "node opt/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

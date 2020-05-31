@@ -1,4 +1,4 @@
-This sample Login was bootstrapped with ReactJs and NodeJs by Mohamed Yasar Arabath(myayasar@gmail.com)
+This Login resctjs  was bootstrapped with ReactJs and NodeJs by Mohamed Yasar Arabath(myayasar@gmail.com)
 
 ## Available Scripts
 
@@ -11,6 +11,7 @@ In the project directory, you can run:
 ## Step2
 
 ### `npm setup`
+![Screenshot](setup.png)
 
 Launches console runner in the interactive watch mode<br />
 to config Server of UI and REST layer listen port
